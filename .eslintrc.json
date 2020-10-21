@@ -34,7 +34,7 @@
         }
       }
     ],
-    "no-redeclare": [
+    "no-redeclare":[
       "error",
       {
         "builtinGlobals": true
