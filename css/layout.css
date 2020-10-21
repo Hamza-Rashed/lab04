@@ -1,0 +1,230 @@
+/* ----------------- for desktop ---------------- */
+.a {
+  width: 960px;
+  height: 100px;
+  background-color: rgb(255, 174, 0);
+}
+
+.b {
+  width: 200px;
+  height: 600px;
+  background-color: rgb(255, 72, 0);
+}
+
+.c {
+  width: 380px;
+  height: 200px;
+  background-color: rgb(80, 165, 0);
+}
+
+.d {
+  width: 380px;
+  height: 200px;
+  background-color: rgb(255, 0, 0);
+}
+
+.e {
+  background-color: rgb(0, 117, 29);
+}
+
+.f {
+  background-color: rgb(0, 179, 125);
+}
+
+.g {
+  background-color: rgb(0, 238, 255);
+}
+
+.h {
+  background-color: rgb(17, 0, 255);
+}
+
+.e,
+.f,
+.g,
+.h {
+  width: 190px;
+  height: 250px;
+}
+
+.i {
+  float: right;
+  width: 760px;
+  height: 150px;
+  background-color: rgb(255, 0, 212);
+}
+
+div {
+  border: solid 1px #000000;
+}
+.b{
+  float: left;
+}
+
+/* --------- for tablet --------- */
+@media only screen and (max-width: 768px) {
+body{
+width: 576px;
+margin: auto;
+font-size: 20px;
+font-weight: bold;
+}
+
+.first-row{
+  width: 480px;
+  flex-direction: column;
+}
+
+.third-row{
+  display: flex;
+}
+
+.fix-row{
+  display: flex;
+}
+
+.a {
+  width: 576px;
+  height: 100px;
+  background-color: rgb(138, 130, 149);
+  line-height: 90px;
+}
+
+.b {
+  width: 576px;
+  line-height: 90px;
+  height: 100px;
+  background-color: rgb(255, 88, 158);
+}
+
+.c {
+  background-color: rgb(149, 255, 87);
+}
+
+.d {
+  background-color: rgb(16, 17, 114);
+}
+
+.c,
+.d {
+  line-height: 140px;
+  width: 576px;
+  height: 150px;
+}
+
+.e {
+  /* float: left; */
+  background-color: rgb(255, 167, 133);
+}
+
+.f {
+  background-color: rgb(198, 74, 255);
+}
+
+.g {
+  background-color: rgb(192, 0, 192);
+}
+
+.h {
+  background-color: rgb(255, 148, 8);
+}
+
+.i {
+  float: left;
+  background-color: rgb(0, 180, 120);
+  width: 576px;
+  height: 150px;
+  line-height: 150px;
+}
+
+.e,
+.f,
+.g,
+.h {
+  line-height: 220px;
+  width: 288px;
+  height: 250px;
+}
+}
+/* ------------- for Mobile ------------ */
+@media only screen and (max-width: 600px) {
+  body,main {
+    width: 480px;
+  }
+
+  div {
+    border: solid 1px #000000;
+    font-size: 200%;
+  }
+
+  .first-row{
+    width: 480px;
+    flex-direction: column;
+  }
+
+  .third-row{
+    display: flex;
+  }
+
+  .fix-row{
+    display: flex;
+  }
+
+  .a {
+    width: 480px;
+    height: 75px;
+    background-color: rgb(53, 0, 138);
+  }
+
+  .b {
+    width: 480px;
+    height: 150px;
+    background-color: rgb(195, 0, 255);
+  }
+
+  .c {
+    background-color: rgb(155, 39, 0);
+  }
+
+  .d {
+    background-color: rgb(255, 0, 0);
+  }
+
+  .c,
+  .d {
+    width: 480px;
+    height: 125px;
+  }
+
+  .e {
+    /* float: left; */
+    background-color: rgb(99, 0, 8);
+  }
+
+  .f {
+    background-color: rgb(0, 255, 34);
+  }
+
+  .g {
+    background-color: rgb(48, 0, 0);
+  }
+
+  .h {
+    background-color: rgb(210, 255, 8);
+  }
+
+  .i {
+    float: left;
+    background-color: rgb(60, 0, 180);
+    width: 480px;
+    height: 80px;
+  }
+
+  .e,
+  .f,
+  .g,
+  .h {
+    width: 240px;
+    height: 250px;
+  }
+}
